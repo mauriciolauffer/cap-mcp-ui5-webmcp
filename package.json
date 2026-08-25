@@ -1,0 +1,17 @@
+{
+  "name": "cap-mcp-ui5-webmcp",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "@sap/cds": "^10"
+  },
+  "devDependencies": {
+    "@cap-js/sqlite": "^3",
+    "@cap-js/cds-test": "^1"
+  },
+  "scripts": {
+    "start": "cds-serve",
+    "test": "node --test"
+  },
+  "private": true
+}
