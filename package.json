@@ -3,14 +3,16 @@
   "version": "1.0.0",
   "type": "module",
   "dependencies": {
+    "@cap-js/mcp": "^1.4.3",
     "@sap/cds": "^10"
   },
   "devDependencies": {
-    "@cap-js/sqlite": "^3",
-    "@cap-js/cds-test": "^1"
+    "@cap-js/cds-test": "^1",
+    "@cap-js/sqlite": "^3"
   },
   "scripts": {
     "start": "cds-serve",
+    "watch": "cds watch",
     "test": "node --test"
   },
   "private": true
