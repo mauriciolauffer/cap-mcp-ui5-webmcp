@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "cds:CatalogService": {
+      "type": "http",
+      "url": "http://localhost:4004/mcp/catalog",
+      "headers": {
+        "Authorization": "Basic YWxpY2U6"
+      }
+    }
+  }
+}
