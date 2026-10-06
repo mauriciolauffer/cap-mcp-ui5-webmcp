@@ -6,7 +6,7 @@
 - $ cd cap-mcp-ui5-webmcp
 - $ cds add sqlite, sample
 - $ code .
-- ADD new test data files
+- ADD new test data files ([data](db\data))
 - $ npm i
 - $ npm start
 
@@ -27,9 +27,10 @@
 
 4. Add WebMCP
 
-- ADD srv/server.js file
-- ADD WebMCP register to app/browse/webapp/Component.js
-- ADD WebMCP module to app/browse/webapp/webmcp.js
+
+- ADD [srv/server.js](srv/server.js) file
+- ADD WebMCP register to [app/browse/webapp/Component.js](app/browse/webapp/Component.js)
+- ADD WebMCP module to [app/browse/webapp/webmcp.js](app/browse/webapp/webmcp.js)
 
 
 
