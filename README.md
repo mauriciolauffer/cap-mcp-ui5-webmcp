@@ -1,9 +1,8 @@
 # cap-mcp-ui5-webmcp
 
-0. Start the project from the root folder...
+0. Start the project from the root folder `devtoberfest-2026`...
 
 - $ cds init --nodejs
-- $ cd cap-mcp-ui5-webmcp
 - $ cds add sqlite, sample
 - $ code .
 - ADD new test data files ([data](db\data))
